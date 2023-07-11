@@ -1,0 +1,336 @@
+[2023-07-11T23:35:31.361+0000] {processor.py:157} INFO - Started process (PID=32) to work on /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:35:31.362+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mongodb_etl.py for tasks to queue
+[2023-07-11T23:35:31.362+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:35:31.362+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:35:31.365+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:35:31.364+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/mongodb_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongodb_etl.py", line 6, in <module>
+    from airflow.providers.mongo.hooks.mongo import MongoHook
+ModuleNotFoundError: No module named 'airflow.providers.mongo'
+[2023-07-11T23:35:31.365+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:35:31.381+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mongodb_etl.py took 0.021 seconds
+[2023-07-11T23:36:02.025+0000] {processor.py:157} INFO - Started process (PID=102) to work on /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:36:02.026+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mongodb_etl.py for tasks to queue
+[2023-07-11T23:36:02.027+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:36:02.027+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:36:02.031+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:36:02.030+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/mongodb_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongodb_etl.py", line 6, in <module>
+    from airflow.providers.mongo.hooks.mongo import MongoHook
+ModuleNotFoundError: No module named 'airflow.providers.mongo'
+[2023-07-11T23:36:02.031+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:36:02.049+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mongodb_etl.py took 0.027 seconds
+[2023-07-11T23:36:32.228+0000] {processor.py:157} INFO - Started process (PID=172) to work on /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:36:32.229+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mongodb_etl.py for tasks to queue
+[2023-07-11T23:36:32.229+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:36:32.229+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:36:32.233+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:36:32.232+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/mongodb_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongodb_etl.py", line 6, in <module>
+    from airflow.providers.mongo.hooks.mongo import MongoHook
+ModuleNotFoundError: No module named 'airflow.providers.mongo'
+[2023-07-11T23:36:32.233+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:36:32.253+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mongodb_etl.py took 0.027 seconds
+[2023-07-11T23:37:02.361+0000] {processor.py:157} INFO - Started process (PID=242) to work on /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:37:02.364+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mongodb_etl.py for tasks to queue
+[2023-07-11T23:37:02.364+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:37:02.364+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:37:02.366+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:37:02.366+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/mongodb_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongodb_etl.py", line 6, in <module>
+    from airflow.providers.mongo.hooks.mongo import MongoHook
+ModuleNotFoundError: No module named 'airflow.providers.mongo'
+[2023-07-11T23:37:02.366+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:37:02.380+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mongodb_etl.py took 0.021 seconds
+[2023-07-11T23:37:32.432+0000] {processor.py:157} INFO - Started process (PID=312) to work on /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:37:32.433+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mongodb_etl.py for tasks to queue
+[2023-07-11T23:37:32.433+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:37:32.433+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:37:32.436+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:37:32.434+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/mongodb_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongodb_etl.py", line 6, in <module>
+    from airflow.providers.mongo.hooks.mongo import MongoHook
+ModuleNotFoundError: No module named 'airflow.providers.mongo'
+[2023-07-11T23:37:32.436+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:37:32.451+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mongodb_etl.py took 0.020 seconds
+[2023-07-11T23:38:02.729+0000] {processor.py:157} INFO - Started process (PID=382) to work on /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:38:02.729+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mongodb_etl.py for tasks to queue
+[2023-07-11T23:38:02.729+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:38:02.729+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:38:02.732+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:38:02.731+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/mongodb_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongodb_etl.py", line 6, in <module>
+    from airflow.providers.mongo.hooks.mongo import MongoHook
+ModuleNotFoundError: No module named 'airflow.providers.mongo'
+[2023-07-11T23:38:02.732+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:38:02.746+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mongodb_etl.py took 0.019 seconds
+[2023-07-11T23:38:33.127+0000] {processor.py:157} INFO - Started process (PID=452) to work on /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:38:33.128+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mongodb_etl.py for tasks to queue
+[2023-07-11T23:38:33.129+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:38:33.128+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:38:33.132+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:38:33.131+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/mongodb_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongodb_etl.py", line 6, in <module>
+    from airflow.providers.mongo.hooks.mongo import MongoHook
+ModuleNotFoundError: No module named 'airflow.providers.mongo'
+[2023-07-11T23:38:33.132+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:38:33.150+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mongodb_etl.py took 0.026 seconds
+[2023-07-11T23:39:03.232+0000] {processor.py:157} INFO - Started process (PID=522) to work on /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:39:03.233+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mongodb_etl.py for tasks to queue
+[2023-07-11T23:39:03.234+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:39:03.233+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:39:03.235+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:39:03.235+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/mongodb_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongodb_etl.py", line 6, in <module>
+    from airflow.providers.mongo.hooks.mongo import MongoHook
+ModuleNotFoundError: No module named 'airflow.providers.mongo'
+[2023-07-11T23:39:03.236+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:39:03.249+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mongodb_etl.py took 0.019 seconds
+[2023-07-11T23:39:33.641+0000] {processor.py:157} INFO - Started process (PID=592) to work on /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:39:33.642+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mongodb_etl.py for tasks to queue
+[2023-07-11T23:39:33.642+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:39:33.642+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:39:33.644+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:39:33.644+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/mongodb_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongodb_etl.py", line 6, in <module>
+    from airflow.providers.mongo.hooks.mongo import MongoHook
+ModuleNotFoundError: No module named 'airflow.providers.mongo'
+[2023-07-11T23:39:33.644+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:39:33.658+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mongodb_etl.py took 0.018 seconds
+[2023-07-11T23:40:03.957+0000] {processor.py:157} INFO - Started process (PID=662) to work on /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:40:03.958+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mongodb_etl.py for tasks to queue
+[2023-07-11T23:40:03.958+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:40:03.958+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:40:03.961+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:40:03.960+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/mongodb_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongodb_etl.py", line 6, in <module>
+    from airflow.providers.mongo.hooks.mongo import MongoHook
+ModuleNotFoundError: No module named 'airflow.providers.mongo'
+[2023-07-11T23:40:03.961+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:40:03.976+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mongodb_etl.py took 0.022 seconds
+[2023-07-11T23:40:34.376+0000] {processor.py:157} INFO - Started process (PID=732) to work on /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:40:34.377+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mongodb_etl.py for tasks to queue
+[2023-07-11T23:40:34.377+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:40:34.377+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:40:34.379+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:40:34.379+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/mongodb_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongodb_etl.py", line 6, in <module>
+    from airflow.providers.mongo.hooks.mongo import MongoHook
+ModuleNotFoundError: No module named 'airflow.providers.mongo'
+[2023-07-11T23:40:34.380+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:40:34.393+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mongodb_etl.py took 0.019 seconds
+[2023-07-11T23:41:04.603+0000] {processor.py:157} INFO - Started process (PID=802) to work on /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:41:04.604+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mongodb_etl.py for tasks to queue
+[2023-07-11T23:41:04.604+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:41:04.604+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:41:04.608+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:41:04.606+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/mongodb_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongodb_etl.py", line 6, in <module>
+    from airflow.providers.mongo.hooks.mongo import MongoHook
+ModuleNotFoundError: No module named 'airflow.providers.mongo'
+[2023-07-11T23:41:04.608+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:41:04.626+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mongodb_etl.py took 0.027 seconds
+[2023-07-11T23:41:34.849+0000] {processor.py:157} INFO - Started process (PID=872) to work on /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:41:34.850+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mongodb_etl.py for tasks to queue
+[2023-07-11T23:41:34.851+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:41:34.850+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:41:34.855+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:41:34.853+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/mongodb_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongodb_etl.py", line 6, in <module>
+    from airflow.providers.mongo.hooks.mongo import MongoHook
+ModuleNotFoundError: No module named 'airflow.providers.mongo'
+[2023-07-11T23:41:34.855+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:41:34.873+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mongodb_etl.py took 0.028 seconds
+[2023-07-11T23:42:05.099+0000] {processor.py:157} INFO - Started process (PID=942) to work on /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:42:05.100+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mongodb_etl.py for tasks to queue
+[2023-07-11T23:42:05.101+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:42:05.100+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:42:05.103+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:42:05.102+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/mongodb_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongodb_etl.py", line 6, in <module>
+    from airflow.providers.mongo.hooks.mongo import MongoHook
+ModuleNotFoundError: No module named 'airflow.providers.mongo'
+[2023-07-11T23:42:05.103+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:42:05.117+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mongodb_etl.py took 0.020 seconds
+[2023-07-11T23:42:35.329+0000] {processor.py:157} INFO - Started process (PID=1012) to work on /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:42:35.331+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mongodb_etl.py for tasks to queue
+[2023-07-11T23:42:35.331+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:42:35.331+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:42:35.334+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:42:35.333+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/mongodb_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongodb_etl.py", line 6, in <module>
+    from airflow.providers.mongo.hooks.mongo import MongoHook
+ModuleNotFoundError: No module named 'airflow.providers.mongo'
+[2023-07-11T23:42:35.335+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:42:35.353+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mongodb_etl.py took 0.028 seconds
+[2023-07-11T23:43:05.623+0000] {processor.py:157} INFO - Started process (PID=1082) to work on /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:43:05.624+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mongodb_etl.py for tasks to queue
+[2023-07-11T23:43:05.624+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:43:05.624+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:43:05.626+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:43:05.625+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/mongodb_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongodb_etl.py", line 6, in <module>
+    from airflow.providers.mongo.hooks.mongo import MongoHook
+ModuleNotFoundError: No module named 'airflow.providers.mongo'
+[2023-07-11T23:43:05.626+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:43:05.637+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mongodb_etl.py took 0.016 seconds
+[2023-07-11T23:43:36.374+0000] {processor.py:157} INFO - Started process (PID=1152) to work on /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:43:36.376+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mongodb_etl.py for tasks to queue
+[2023-07-11T23:43:36.377+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:43:36.377+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:43:36.379+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:43:36.378+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/mongodb_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongodb_etl.py", line 6, in <module>
+    from airflow.providers.mongo.hooks.mongo import MongoHook
+ModuleNotFoundError: No module named 'airflow.providers.mongo'
+[2023-07-11T23:43:36.379+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:43:36.392+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mongodb_etl.py took 0.020 seconds
+[2023-07-11T23:44:06.527+0000] {processor.py:157} INFO - Started process (PID=1222) to work on /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:44:06.530+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mongodb_etl.py for tasks to queue
+[2023-07-11T23:44:06.530+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:44:06.530+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:44:06.532+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:44:06.531+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/mongodb_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongodb_etl.py", line 6, in <module>
+    from airflow.providers.mongo.hooks.mongo import MongoHook
+ModuleNotFoundError: No module named 'airflow.providers.mongo'
+[2023-07-11T23:44:06.532+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:44:06.547+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mongodb_etl.py took 0.021 seconds
+[2023-07-11T23:44:37.038+0000] {processor.py:157} INFO - Started process (PID=1292) to work on /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:44:37.039+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mongodb_etl.py for tasks to queue
+[2023-07-11T23:44:37.039+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:44:37.039+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:44:37.045+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:44:37.044+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/mongodb_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongodb_etl.py", line 6, in <module>
+    from airflow.providers.mongo.hooks.mongo import MongoHook
+ModuleNotFoundError: No module named 'airflow.providers.mongo'
+[2023-07-11T23:44:37.045+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:44:37.056+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mongodb_etl.py took 0.020 seconds
+[2023-07-11T23:45:07.344+0000] {processor.py:157} INFO - Started process (PID=1362) to work on /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:45:07.345+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mongodb_etl.py for tasks to queue
+[2023-07-11T23:45:07.345+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:45:07.345+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:45:07.348+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:45:07.347+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/mongodb_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongodb_etl.py", line 6, in <module>
+    from airflow.providers.mongo.hooks.mongo import MongoHook
+ModuleNotFoundError: No module named 'airflow.providers.mongo'
+[2023-07-11T23:45:07.348+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:45:07.363+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mongodb_etl.py took 0.021 seconds
+[2023-07-11T23:45:37.494+0000] {processor.py:157} INFO - Started process (PID=1432) to work on /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:45:37.497+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mongodb_etl.py for tasks to queue
+[2023-07-11T23:45:37.498+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:45:37.497+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:45:37.499+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:45:37.499+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/mongodb_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongodb_etl.py", line 6, in <module>
+    from airflow.providers.mongo.hooks.mongo import MongoHook
+ModuleNotFoundError: No module named 'airflow.providers.mongo'
+[2023-07-11T23:45:37.500+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:45:37.512+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mongodb_etl.py took 0.020 seconds
+[2023-07-11T23:46:07.678+0000] {processor.py:157} INFO - Started process (PID=1502) to work on /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:46:07.678+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mongodb_etl.py for tasks to queue
+[2023-07-11T23:46:07.678+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:46:07.678+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:46:07.681+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:46:07.680+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/mongodb_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongodb_etl.py", line 6, in <module>
+    from airflow.providers.mongo.hooks.mongo import MongoHook
+ModuleNotFoundError: No module named 'airflow.providers.mongo'
+[2023-07-11T23:46:07.681+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:46:07.692+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mongodb_etl.py took 0.016 seconds
+[2023-07-11T23:46:37.763+0000] {processor.py:157} INFO - Started process (PID=1572) to work on /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:46:37.764+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mongodb_etl.py for tasks to queue
+[2023-07-11T23:46:37.764+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:46:37.764+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:46:37.766+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:46:37.766+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/mongodb_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongodb_etl.py", line 6, in <module>
+    from airflow.providers.mongo.hooks.mongo import MongoHook
+ModuleNotFoundError: No module named 'airflow.providers.mongo'
+[2023-07-11T23:46:37.767+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:46:37.778+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mongodb_etl.py took 0.017 seconds
+[2023-07-11T23:47:08.122+0000] {processor.py:157} INFO - Started process (PID=1642) to work on /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:47:08.122+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mongodb_etl.py for tasks to queue
+[2023-07-11T23:47:08.122+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:47:08.122+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:47:08.125+0000] {logging_mixin.py:150} INFO - [2023-07-11T23:47:08.124+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/mongodb_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/mongodb_etl.py", line 6, in <module>
+    from airflow.providers.mongo.hooks.mongo import MongoHook
+ModuleNotFoundError: No module named 'airflow.providers.mongo'
+[2023-07-11T23:47:08.125+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/mongodb_etl.py
+[2023-07-11T23:47:08.136+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mongodb_etl.py took 0.017 seconds
